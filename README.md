@@ -4,11 +4,11 @@ Simple .csv file parsing for Node.js using Promises or callbacks
 
 ## Installation
 
-`$ npm install csv_to_json`
+`$ npm install @chris--young/csv_to_json`
 
 ## Parse a csv string
 ```
-const csv_to_json = require('csv_to_json');
+const csv_to_json = require('@chris--young/csv_to_json');
 
 const csv_str = 'id,email\n1,foo@email.com\n2,bar@email.com';
 
