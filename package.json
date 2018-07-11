@@ -1,0 +1,21 @@
+{
+  "name": "csv_to_json",
+  "version": "1.0.0",
+  "description": "Converts csv to json",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo 'lol'"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "comma",
+    "seperated",
+    "values",
+    "javascript",
+    "object",
+    "notation"
+  ],
+  "author": "Chris Young (youngc5690@gmail.com)",
+  "license": "ISC"
+}
