@@ -1,10 +1,11 @@
 {
   "name": "@chris--young/csv_to_json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts csv to json",
   "main": "main.js",
+  "types": "main.d.ts",
   "scripts": {
-    "test": "echo 'lol'"
+    "test": "node test.js"
   },
   "keywords": [
     "csv",
@@ -14,8 +15,15 @@
     "values",
     "javascript",
     "object",
-    "notation"
+    "notation",
+    "typescript",
+    "typed"
   ],
   "author": "Chris Young (youngc5690@gmail.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chris--young/csv_to_json.git"
+  },
+  "homepage": "https://github.com/chris--young/csv_to_json"
 }
