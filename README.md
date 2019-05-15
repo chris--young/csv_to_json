@@ -17,12 +17,10 @@ try {
 
   /*
 
-    {
-      users: [
-        { id: '1', email: 'foo@email.com' },
-        { id: '2', email: 'bar@email.com' }
-      ]
-    }
+    users = [
+      { id: '1', email: 'foo@email.com' },
+      { id: '2', email: 'bar@email.com' }
+    ]
 
    */
 
@@ -33,7 +31,7 @@ try {
 
 ## Read a csv file
 ```
-const csv_to_json = require('csv_to_json');
+const csv_to_json = require('@chris--young/csv_to_json');
 
 try {
   const users = await csv_to_json.from_file('./users.csv');
@@ -46,7 +44,7 @@ try {
 
 ## Callback Style
 ```
-const csv_to_json = require('csv_to_json');
+const csv_to_json = require('@chris--young/csv_to_json');
 
 const csv_str = 'id,email\n1,foo@email.com\n2,bar@email.com';
 
