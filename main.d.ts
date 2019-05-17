@@ -1,6 +1,6 @@
 declare namespace csv_to_json {
   export type JSON = { [key: string]: string };
-  export type Callback = (Error, Struct) => void;
+  export type Callback = (error: Error, result: JSON) => void;
 
   export function from_file(filename: string, cb: Callback): Promise<JSON[]>|undefined;
 }
