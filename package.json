@@ -1,6 +1,6 @@
 {
   "name": "@chris--young/csv_to_json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Converts csv to json",
   "main": "main.js",
   "types": "main.d.ts",
