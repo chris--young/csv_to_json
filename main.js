@@ -7,6 +7,9 @@ const fs = require('fs');
 module.exports = csv_to_json;
 module.exports.from_file = from_file;
 
+module.exports.parseCSV = csv_to_json;
+module.exports.parseCSVFile = from_file;
+
 function from_file(filename, cb) {
   const promise = new Promise((resolve, reject) => {
     if (typeof filename !== 'string')
